@@ -3,17 +3,18 @@
 	<head>
 		<title>Anime Convention</title>
 		<meta charset="utf-8">
+		<link rel= "stylesheet" href="./css/one_page_website.css">
 	</head>
 	<body>
 	<!-- NAV -->
-		<div>
-			<div>
+		<div class="wrap">
+			<div class="menu-container">
 				<nav>	
-					<ul>
+					<ul class="menu">
 						<a href="#home" id="link"><li>HOME</li></a>
 						<a href="#gallery"><li>GALLERY</li></a>
 						<a href="#video"><li>VIDEO</li></a>
-						<a href="#contact"><li>BUY TICKETS NOW</li></a>
+						<a href="#contact" id="buy"><li>BUY TICKETS NOW</li></a>
 					</ul>
 				</nav>
 			</div>
@@ -22,24 +23,23 @@
 	
 	<!-- HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<span>Anime Convention</span>
-					<img src="Images/Top_Image/top_image_1.jpg" alt="JoJo">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Anime Convention</span>
 				</div>
 			</div>
 		</div>
 	<!-- END HOME -->		
-	
+
 	<!-- GALLERY -->
 		<div id="gallery">
 			<h1>GALLERY</h1>	
-				<div>
+				<div class="flex-container">
 					<!-- PHOTO-CONTAINER 1-->
-					<div>
-						<div>	
+					<div class="photo-container">
+						<div class="photo">	
 							<img src="Images/Thumb/thumbnail_1.jpg" alt="JotaroVsDio">
-							<div> 
+							<div class="photo-overlay"> 
 								<h2>Click to Enlarge</h2>
 								<p>Jotaro Vs Dio</p>
 							</div>
@@ -48,10 +48,10 @@
 					<!-- END PHOTO-CONTAINER 1-->
 						
 					<!-- PHOTO-CONTAINER 2-->
-					<div>
-						<div>	
-							<img src="Images/Thumb/thumbnail_2.jpg" alt="GokuUltraInstinct">
-							<div> 
+					<div class="photo-container">
+						<div class="photo">	
+							<img src="Images/Thumb/thumbnail_2.png" alt="GokuUltraInstinct">
+							<div class="photo-overlay"> 
 								<h2>Click to Enlarge</h2>
 								<p>Goku Ultra Instinct</p>
 							</div>
@@ -60,10 +60,10 @@
 					<!-- END PHOTO-CONTAINER 2-->
 						
 					<!-- PHOTO-CONTAINER 3-->
-					<div>
-						<div>	
+					<div class="photo-container">
+						<div class="photo">	
 							<img src="Images/Thumb/thumbnail_3.jpg" alt="Luffy">
-							<div> 
+							<div class="photo-overlay"> 
 								<h2>Click to Enlarge</h2>
 								<p>Monkey D Luffy</p>
 							</div>
@@ -72,10 +72,10 @@
 					<!-- END PHOTO-CONTAINER 3-->
 						
 					<!-- PHOTO-CONTAINER 4-->
-					<div>
-						<div>	
+					<div class="photo-container">
+						<div class="photo">	
 							<img src="Images/Thumb/thumbnail_4.jpg" alt="Naruto">
-							<div> 
+							<div class="photo-overlay"> 
 								<h2>Click to Enlarge</h2>
 								<p>Naruto Uzumaki</p>
 							</div>
@@ -84,10 +84,10 @@
 					<!-- END PHOTO-CONTAINER 4-->
 						
 					<!-- PHOTO-CONTAINER 5-->
-					<div>
-						<div>	
+					<div class="photo-container">
+						<div class="photo">	
 							<img src="Images/Thumb/thumbnail_5.jpg" alt="Eren">
-							<div> 
+							<div class="photo-overlay"> 
 								<h2>Click to Enlarge</h2>
 								<p>Eren Yeager</p>
 							</div>
@@ -96,10 +96,10 @@
 					<!-- END PHOTO-CONTAINER 5-->
 						
 					<!-- PHOTO-CONTAINER 6-->
-					<div>
-						<div>	
+					<div class="photo-container">
+						<div class="photo">	
 							<img src="Images/Thumb/thumbnail_6.jpg" alt="Thorfin">
-							<div> 
+							<div class="photo-overlay"> 
 								<h2>Click to Enlarge</h2>
 								<p>Thorfin the Viking</p>
 							</div>
@@ -108,10 +108,10 @@
 					<!-- END PHOTO-CONTAINER 6-->
 						
 					<!-- PHOTO-CONTAINER 7-->
-					<div>
-						<div>	
+					<div class="photo-container">
+						<div class="photo">	
 							<img src="Images/Thumb/thumbnail_7.jpg" alt="Denji">
-							<div> 
+							<div class="photo-overlay"> 
 								<h2>Click to Enlarge</h2>
 								<p>Denji</p>
 							</div>
@@ -120,10 +120,10 @@
 					<!-- END PHOTO-CONTAINER 7-->
 						
 					<!-- PHOTO-CONTAINER 8-->
-					<div>
-						<div>	
+					<div class="photo-container">
+						<div class="photo">	
 							<img src="Images/Thumb/thumbnail_8.jpg" alt="comiconphoto1">
-							<div> 
+							<div class="photo-overlay"> 
 								<h2>Click to Enlarge</h2>
 								<p>Last year convention</p>
 							</div>
@@ -132,10 +132,10 @@
 					<!-- END PHOTO-CONTAINER 8-->
 						
 					<!-- PHOTO-CONTAINER 9-->
-					<div>
-						<div>	
+					<div class="photo-container">
+						<div class="photo">	
 							<img src="Images/Thumb/thumbnail_9.png" alt="comiconphoto2">
-							<div> 
+							<div class="photo-overlay"> 
 								<h2>Click to Enlarge</h2>
 								<p>Last year convention 2</p>
 							</div>
@@ -146,29 +146,32 @@
 		</div>
 
 	<!-- END GALLERY -->
-	
+		
+
+
 	<!-- VIDEO -->
 		<div id="video">
-			<h1>Anime Convention in other countries!</h1>
-				<div>
-					<div>
-						<iframe width="640" height="360" src="https://www.youtube.com/embed/lH774xEkbBk"></iframe>
+			<div class="flex-container-video">
+				<h1>Anime Convention in other countries!</h1>
+					<div class="video-container">
+						<div class="video">
+							<iframe width="640" height="360" src="https://www.youtube.com/embed/lH774xEkbBk"></iframe>
+						</div>
 					</div>
-				</div>
+			</div>
 		</div>
 	<!-- END VIDEO -->
+
 	
 	<!-- CONTACT -->
 		<div id="contact">
-			<div>
-				<div>
-					<h1>GET YOUR TICKET TODAY!<h1>
-					<div>
-						<h2><span>Don't miss the oportunity to meet the manga writers</span>
-						<br />Get your ticket today! 
-						</h2>
-						<p> Please provide your contact information</p>
-						<div>
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">GET YOUR TICKET TODAY!<h1>
+					<div class="reservation">
+						<h2><span>Don't miss the oportunity to meet the manga writers</span></h2><br>
+						<p class="rsvp-text"> Please provide your contact information</p>
+						<div class="form-rsvp">
 							<form action="" method="post">
 								<input class="contact" type="text" value="First Name">
 								<input class="contact" type="text" value="Last Name">
@@ -189,9 +192,10 @@
 		</div>
 	<!-- END CONTACT -->
 	<footer>
-	305 206 2596 <br>
-	Boca Raton, Fl<br>
-	Arieleon25@yahoo.com
+		<div id="footer">
+			Boca Raton, Fl<br>
+			Arieleon25@yahoo.com
+		</div>
 	</footer>
 	</body>
 </html>
